@@ -1,0 +1,57 @@
+# V2G Tracker Configuration
+title: V2G战略情报站
+description: Vehicle-to-Grid行业每日情报追踪与分析
+baseurl: "/v2g-tracker"
+url: "https://yourusername.github.io"
+
+# 主题设置
+theme: jekyll-theme-cayman
+markdown: kramdown
+highlighter: rouge
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 默认值
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "V2G Tracker Bot"
+
+# 集合
+collections:
+  daily:
+    output: true
+    permalink: /:collection/:name/
+  companies:
+    output: true
+    permalink: /:collection/:name/
+  dataviz:
+    output: true
+    permalink: /:collection/:name/
+
+# 排除文件
+exclude:
+  - scripts/
+  - node_modules/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# 时区
+timezone: Asia/Shanghai
+
+# 语言设置
+languages: ["zh", "en", "de", "ja"]
+default_lang: "zh"
+
+# 元数据
+version: "1.0.0"
+last_updated: "2025-01"
+update_frequency: "daily"
