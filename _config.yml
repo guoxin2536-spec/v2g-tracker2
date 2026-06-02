@@ -1,8 +1,8 @@
 # V2G Tracker Configuration
 title: V2G战略情报站
 description: Vehicle-to-Grid行业每日情报追踪与分析
-baseurl: "/v2g-tracker"
-url: "https://yourusername.github.io"
+baseurl: "/v2g-tracker2"
+url: "https://guoxin2536-spe.github.io"
 
 # 主题设置
 theme: jekyll-theme-cayman
